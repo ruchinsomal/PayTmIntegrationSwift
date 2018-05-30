@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let paytmInstance = PaytmGateway.sharedInstance
-        paytmInstance.createOrderWith(sender: self, customerID: "1234", amount: "10")
+        paytmInstance.createOrderWith(sender: self, customerID: "123", amount: "10")
     }
 
     override func didReceiveMemoryWarning() {
